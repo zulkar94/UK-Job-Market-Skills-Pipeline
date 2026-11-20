@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Generated data (regenerate with the scripts)
+data/raw/
+data/*.db
+
+# Generated outputs are kept in outputs/ for review

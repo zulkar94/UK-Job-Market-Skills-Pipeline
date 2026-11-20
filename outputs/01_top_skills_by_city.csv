@@ -1,0 +1,106 @@
+city,skill,adverts_with_skill,city_adverts,share_of_adverts
+Leeds,Negotiation,22,49,0.449
+Leeds,Stakeholder management,22,49,0.449
+Leeds,CRM systems,18,49,0.367
+Leeds,Process improvement,14,49,0.286
+Leeds,Microsoft Office,13,49,0.265
+Leeds,Recruitment,12,49,0.245
+Leeds,Excel,11,49,0.224
+Leeds,Salesforce,9,49,0.184
+Leeds,Account management,7,49,0.143
+Leeds,Health and safety,7,49,0.143
+Leeds,Rota and rostering,7,49,0.143
+Leeds,Budget management,6,49,0.122
+Leeds,Team leadership,6,49,0.122
+Leeds,Customer service,5,49,0.102
+Leeds,SQL,5,49,0.102
+Leeds,Sales targets,5,49,0.102
+Leeds,Data analysis,4,49,0.082
+Leeds,Tableau,4,49,0.082
+Leeds,Power BI,3,49,0.061
+Leeds,Python,3,49,0.061
+Leeds,R,3,49,0.061
+Liverpool,Stakeholder management,23,42,0.548
+Liverpool,Process improvement,17,42,0.405
+Liverpool,Microsoft Office,13,42,0.31
+Liverpool,Customer service,12,42,0.286
+Liverpool,CRM systems,11,42,0.262
+Liverpool,Excel,11,42,0.262
+Liverpool,Health and safety,8,42,0.19
+Liverpool,Negotiation,8,42,0.19
+Liverpool,Data analysis,7,42,0.167
+Liverpool,Rota and rostering,7,42,0.167
+Liverpool,Team leadership,7,42,0.167
+Liverpool,Budget management,6,42,0.143
+Liverpool,Recruitment,6,42,0.143
+Liverpool,Sales targets,5,42,0.119
+Liverpool,Account management,4,42,0.095
+Liverpool,Python,4,42,0.095
+Liverpool,Tableau,4,42,0.095
+Liverpool,R,3,42,0.071
+Liverpool,Salesforce,3,42,0.071
+Liverpool,Power BI,2,42,0.048
+Liverpool,SQL,1,42,0.024
+London,Stakeholder management,20,38,0.526
+London,Microsoft Office,16,38,0.421
+London,Process improvement,12,38,0.316
+London,Customer service,11,38,0.289
+London,CRM systems,9,38,0.237
+London,Negotiation,9,38,0.237
+London,Excel,8,38,0.211
+London,Sales targets,7,38,0.184
+London,Salesforce,6,38,0.158
+London,Account management,5,38,0.132
+London,Data analysis,5,38,0.132
+London,Power BI,5,38,0.132
+London,Recruitment,5,38,0.132
+London,SQL,4,38,0.105
+London,Team leadership,4,38,0.105
+London,Budget management,3,38,0.079
+London,Python,3,38,0.079
+London,R,3,38,0.079
+London,Rota and rostering,3,38,0.079
+London,Tableau,3,38,0.079
+London,Health and safety,1,38,0.026
+Manchester,Stakeholder management,32,53,0.604
+Manchester,Microsoft Office,18,53,0.34
+Manchester,Process improvement,17,53,0.321
+Manchester,CRM systems,15,53,0.283
+Manchester,Negotiation,15,53,0.283
+Manchester,Customer service,12,53,0.226
+Manchester,Excel,10,53,0.189
+Manchester,Recruitment,10,53,0.189
+Manchester,Data analysis,9,53,0.17
+Manchester,Power BI,8,53,0.151
+Manchester,Python,7,53,0.132
+Manchester,R,7,53,0.132
+Manchester,SQL,7,53,0.132
+Manchester,Team leadership,7,53,0.132
+Manchester,Sales targets,6,53,0.113
+Manchester,Account management,5,53,0.094
+Manchester,Budget management,5,53,0.094
+Manchester,Health and safety,5,53,0.094
+Manchester,Rota and rostering,5,53,0.094
+Manchester,Salesforce,5,53,0.094
+Manchester,Tableau,5,53,0.094
+Salford,Stakeholder management,26,58,0.448
+Salford,Microsoft Office,25,58,0.431
+Salford,Negotiation,21,58,0.362
+Salford,CRM systems,20,58,0.345
+Salford,Process improvement,19,58,0.328
+Salford,Customer service,14,58,0.241
+Salford,Salesforce,11,58,0.19
+Salford,Account management,8,58,0.138
+Salford,Excel,8,58,0.138
+Salford,Sales targets,8,58,0.138
+Salford,Budget management,7,58,0.121
+Salford,Recruitment,7,58,0.121
+Salford,Health and safety,6,58,0.103
+Salford,Power BI,6,58,0.103
+Salford,Rota and rostering,6,58,0.103
+Salford,Data analysis,5,58,0.086
+Salford,R,5,58,0.086
+Salford,Python,4,58,0.069
+Salford,Tableau,4,58,0.069
+Salford,Team leadership,4,58,0.069
+Salford,SQL,3,58,0.052

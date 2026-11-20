@@ -1,0 +1,70 @@
+skill_a,skill_b,adverts_with_both
+CRM systems,Negotiation,59
+Customer service,Stakeholder management,52
+Process improvement,Stakeholder management,52
+Customer service,Process improvement,50
+Microsoft Office,Stakeholder management,48
+Customer service,Microsoft Office,46
+Microsoft Office,Process improvement,46
+CRM systems,Stakeholder management,41
+Recruitment,Stakeholder management,40
+CRM systems,Recruitment,39
+Negotiation,Stakeholder management,39
+Negotiation,Recruitment,37
+Account management,Negotiation,22
+CRM systems,Salesforce,22
+Microsoft Office,Negotiation,22
+Microsoft Office,Sales targets,22
+Negotiation,Sales targets,22
+Negotiation,Salesforce,22
+CRM systems,Microsoft Office,21
+Microsoft Office,Salesforce,20
+Sales targets,Salesforce,20
+Health and safety,Team leadership,19
+Account management,Microsoft Office,18
+Budget management,Team leadership,18
+CRM systems,Sales targets,18
+Health and safety,Rota and rostering,18
+Account management,Salesforce,17
+Budget management,Health and safety,17
+Budget management,Rota and rostering,17
+Excel,Health and safety,17
+Excel,Team leadership,17
+Process improvement,Rota and rostering,17
+Account management,CRM systems,16
+Account management,Sales targets,16
+Budget management,Process improvement,16
+Excel,Rota and rostering,16
+Rota and rostering,Team leadership,16
+Budget management,Excel,14
+Data analysis,Power BI,14
+Data analysis,Stakeholder management,14
+Excel,Process improvement,14
+Excel,Stakeholder management,14
+Health and safety,Process improvement,14
+Process improvement,Team leadership,14
+Data analysis,Excel,13
+Data analysis,Python,13
+Data analysis,R,12
+Data analysis,SQL,12
+Power BI,Stakeholder management,12
+Excel,Python,11
+Power BI,SQL,11
+Python,Stakeholder management,11
+Data analysis,Tableau,10
+Excel,Power BI,10
+R,Stakeholder management,10
+R,Tableau,10
+Excel,Tableau,9
+Power BI,Tableau,9
+R,SQL,9
+Excel,R,8
+Power BI,Python,8
+Python,Tableau,8
+Stakeholder management,Tableau,8
+Power BI,R,7
+Python,SQL,7
+SQL,Stakeholder management,7
+SQL,Tableau,7
+Excel,SQL,6
+Python,R,6
