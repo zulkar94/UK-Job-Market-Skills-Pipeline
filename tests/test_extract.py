@@ -13,7 +13,10 @@ from job_market.extract import extract_skills
         ("Experience with Python, SQL and Power BI.", ["Python", "SQL", "Power BI"]),
         ("Strong PowerBI reporting skills", ["Power BI"]),
         ("Advanced Excel and Microsoft Office", ["Excel", "Microsoft Office"]),
-        ("Team leader for six staff who also manage rotas.", ["Team leadership", "Rota and rostering"]),
+        (
+            "Team leader for six staff who also manage rotas.",
+            ["Team leadership", "Rota and rostering"],
+        ),
         ("Hitting sales targets through negotiation", ["Sales targets", "Negotiation"]),
         ("Recruitment consultant with candidate sourcing", ["Recruitment"]),
     ],
@@ -25,10 +28,10 @@ def test_matches_expected_skills(text, expected):
 @pytest.mark.parametrize(
     "text, unexpected",
     [
-        ("An excellent opportunity to grow", "Excel"),        # 'excel' inside 'excellent'
-        ("Some R&D experience would help", "R"),              # R followed by &
+        ("An excellent opportunity to grow", "Excel"),  # 'excel' inside 'excellent'
+        ("Some R&D experience would help", "R"),  # R followed by &
         ("We are a clean and friendly team", "Process improvement"),
-        ("Work with the r team on reports", "R"),             # lowercase r is prose, not R
+        ("Work with the r team on reports", "R"),  # lowercase r is prose, not R
         ("Good customer experience matters", "Customer service"),
         ("We are recruiting for a role in our team", "Recruitment"),  # boilerplate, not a skill
     ],

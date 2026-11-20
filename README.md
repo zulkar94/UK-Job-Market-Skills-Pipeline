@@ -28,7 +28,9 @@ To use your own data, pass the file in:
 python -m job_market.pipeline --csv path/to/adverts.csv
 ```
 
-Required columns: `advert_id, title, company, city, posted_date, salary_min, salary_max, description`. Dates are ISO 8601. Salaries are annual GBP, and may be blank.
+Required columns: `advert_id, title, company, city, posted_date, salary_min, salary_max, description`. Dates must be `YYYY-MM-DD`. Salaries are annual GBP and may be blank, plain (`30000`) or formatted (`£30,000`). CSV files saved from Excel, with a byte-order mark, are accepted.
+
+Every row is checked before the database is built. A duplicate `advert_id`, a bad date, a salary that is not a number, or a maximum below the minimum stops the load with an error naming the CSV line, for example `line 14 (advert_id 'A13'): salary_max 30000 is below salary_min 40000`.
 
 ## Outputs
 

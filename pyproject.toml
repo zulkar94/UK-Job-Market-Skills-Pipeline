@@ -10,7 +10,7 @@ requires-python = ">=3.10"
 dependencies = []
 
 [project.optional-dependencies]
-dev = ["pytest>=8"]
+dev = ["pytest>=8", "ruff>=0.6"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
@@ -18,3 +18,16 @@ where = ["src"]
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I", "UP", "S", "SIM"]
+# S101: assert is how pytest works. S608: queries are read from the repo's own .sql files.
+ignore = ["S101", "S608"]
+
+[tool.ruff.lint.per-file-ignores]
+# The generator makes synthetic data from a seeded PRNG on purpose. Nothing here is security-sensitive.
+"src/job_market/sample_data.py" = ["S311"]

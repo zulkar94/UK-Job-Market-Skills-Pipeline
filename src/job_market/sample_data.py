@@ -18,12 +18,26 @@ from pathlib import Path
 ROLE_TEMPLATES: dict[str, tuple[list[str], list[str], tuple[int, int]]] = {
     "Sales": (
         ["Territory Sales Manager", "Account Executive", "Sales Representative"],
-        ["sales targets", "CRM systems", "Salesforce", "account management", "negotiation", "Microsoft Office"],
+        [
+            "sales targets",
+            "CRM systems",
+            "Salesforce",
+            "account management",
+            "negotiation",
+            "Microsoft Office",
+        ],
         (28000, 45000),
     ),
     "Operations": (
         ["Operations Manager", "Shift Manager", "Store Operations Lead"],
-        ["team leadership", "rota and rostering", "process improvement", "health and safety", "budget management", "Excel"],
+        [
+            "team leadership",
+            "rota and rostering",
+            "process improvement",
+            "health and safety",
+            "budget management",
+            "Excel",
+        ],
         (26000, 40000),
     ),
     "Recruitment": (
@@ -33,7 +47,16 @@ ROLE_TEMPLATES: dict[str, tuple[list[str], list[str], tuple[int, int]]] = {
     ),
     "Data": (
         ["Data Analyst", "Business Analyst", "MI Analyst"],
-        ["SQL", "Python", "Excel", "Power BI", "Tableau", "R", "data analysis", "stakeholder management"],
+        [
+            "SQL",
+            "Python",
+            "Excel",
+            "Power BI",
+            "Tableau",
+            "R",
+            "data analysis",
+            "stakeholder management",
+        ],
         (32000, 52000),
     ),
     "Public sector": (
@@ -72,10 +95,7 @@ PHRASE_FOR_SKILL = {
 def build_description(rng: random.Random, skills: list[str]) -> str:
     chosen = rng.sample(skills, k=min(len(skills), rng.randint(3, 5)))
     phrases = [PHRASE_FOR_SKILL[s] for s in chosen]
-    if len(phrases) > 1:
-        listed = ", ".join(phrases[:-1]) + " and " + phrases[-1]
-    else:
-        listed = phrases[0]
+    listed = ", ".join(phrases[:-1]) + " and " + phrases[-1] if len(phrases) > 1 else phrases[0]
     return (
         f"We are recruiting for a role that needs {listed}. "
         "You will work closely with local teams and report progress weekly. "
@@ -101,7 +121,9 @@ def generate(n: int, seed: int = 2026) -> list[dict]:
                 "city": rng.choice(CITIES),
                 "posted_date": posted.isoformat(),
                 "salary_min": salary_min if rng.random() > 0.15 else "",
-                "salary_max": (salary_min + rng.randrange(3000, 8000, 500)) if rng.random() > 0.15 else "",
+                "salary_max": (salary_min + rng.randrange(3000, 8000, 500))
+                if rng.random() > 0.15
+                else "",
                 "description": build_description(rng, skills),
             }
         )

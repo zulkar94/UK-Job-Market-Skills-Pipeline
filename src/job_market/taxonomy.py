@@ -33,13 +33,22 @@ SKILLS: tuple[Skill, ...] = (
     Skill("Customer service", (r"customer service", r"customer care")),
     Skill("Team leadership", (r"team leader\w*", r"line manag\w*", r"people management")),
     Skill("Rota and rostering", (r"rota", r"rostering")),
-    Skill("Process improvement", (r"process improvement", r"continuous improvement", r"lean six sigma")),
+    Skill(
+        "Process improvement",
+        (r"process improvement", r"continuous improvement", r"lean six sigma"),
+    ),
     # Deliberately not "recruit\w*": "we are recruiting for" is boilerplate in many
     # adverts that have nothing to do with recruitment experience.
-    Skill("Recruitment", (
-        r"recruitment experience", r"recruitment consult\w*", r"recruiter",
-        r"talent acquisition", r"candidate sourcing",
-    )),
+    Skill(
+        "Recruitment",
+        (
+            r"recruitment experience",
+            r"recruitment consult\w*",
+            r"recruiter",
+            r"talent acquisition",
+            r"candidate sourcing",
+        ),
+    ),
     Skill("Account management", (r"account manag\w*",)),
     Skill("Sales targets", (r"sales targets?", r"targets?-driven", r"quota")),
     Skill("Data analysis", (r"data analys\w*",)),
